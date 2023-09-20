@@ -1,0 +1,22 @@
+{
+    "name": "boburmirzo/kino-poisk-lite",
+    "description": "Kinopoisk Lite on pure php",
+    "type": "project",
+    "require-dev": {
+        "symfony/var-dumper": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Boburmirzo\\KinoPoiskLite\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Boburmirzo Kozimov",
+            "email": "boburmirzo@sabgames.org"
+        }
+    ],
+    "require": {
+        "laravel/pint": "^1.13"
+    }
+}
