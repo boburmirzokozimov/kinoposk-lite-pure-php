@@ -2,4 +2,4 @@ name: kinopoisk-lite
 recipe: lamp
 config:
   php: '8.2'
-  webroot: .
+  webroot: public
