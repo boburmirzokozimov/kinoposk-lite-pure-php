@@ -5,9 +5,9 @@ namespace Application\Kernel\Router;
 class Route
 {
     public function __construct(
-        private string $uri,
-        private string $method,
-        private        $callback
+        private readonly string $uri,
+        private readonly string $method,
+        private                 $callback
     )
     {
     }
